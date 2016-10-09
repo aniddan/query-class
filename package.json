@@ -1,0 +1,34 @@
+{
+  "name": "query-class",
+  "version": "1.0.0",
+  "description": "Parse query strings and stringify query objects",
+  "main": "query.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "query",
+    "parse",
+    "class",
+    "es6"
+  ],
+  "author": "Iddan Aharonson",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint-config-infashion": "^1.1.1",
+    "mocha": "^3.1.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "eslint-config-infashion": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aniddan/query-class.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aniddan/query-class/issues"
+  },
+  "homepage": "https://github.com/aniddan/query-class#readme"
+}
