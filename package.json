@@ -4,7 +4,9 @@
   "description": "Parse query strings and stringify query objects",
   "main": "query.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [
     "query",
@@ -21,7 +23,8 @@
   },
   "dependencies": {
     "chai": "^3.5.0",
-    "eslint-config-infashion": "^1.1.1"
+    "eslint-config-infashion": "^1.1.1",
+    "snyk": "^1.192.3"
   },
   "repository": {
     "type": "git",
@@ -30,5 +33,6 @@
   "bugs": {
     "url": "https://github.com/aniddan/query-class/issues"
   },
-  "homepage": "https://github.com/aniddan/query-class#readme"
+  "homepage": "https://github.com/aniddan/query-class#readme",
+  "snyk": true
 }
